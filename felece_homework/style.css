@@ -1,0 +1,378 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-size: 100%;
+    line-height: 1.5;
+    /* background-color: bisque; */
+    background-color: #FFF;
+  }
+  
+  header, li {
+    list-style: none;
+  display: flex;
+  padding: 10px 20px;
+    justify-content:space-between;
+    color: #FFF;
+    flex-wrap: wrap;
+  }
+  header, ul {
+    display:flex;
+  
+  }
+  
+  header {
+  text-align: left;
+    list-style: none;
+   background-color: rgb(2 20 39);
+  
+   list-style-position: outside;
+  }
+  
+  .personal{
+    /* max-width: 1300px;
+    margin: 40px auto 0 auto; */
+    display: flex;
+    background-color:white;
+    height: 53vh;
+    width: 100%;
+    padding: 0.5em;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-basis: 50%; 
+    
+    
+    
+  }
+  .fix{
+    width: 50vw;
+  height: 25vh;
+  background-color: #e4d5db; 
+  /* background-color: #ffffff; */
+  color: #FFF;
+  line-height: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: start;
+  }
+  .personal img{
+   
+    border-radius: 60%;
+    flex-grow: 3;
+  }
+  .fixed-size >div >a
+  {
+    font-size: 2em;
+  }
+  
+  .center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+  max-height: 50%;
+  flex: 2;  }
+  
+  .button{
+    background-color: rgb(2, 20, 39);
+    border-radius: 8px;
+  flex-grow: 0;
+  display: inline-block;
+  padding: .7em 1.7em;
+  font-weight : 600;
+  text-decoration: none;
+  color: #FFF;
+  
+  }
+  .personal h5{
+    text-align: center;
+    display:flex;
+    flex-grow: 3;
+  
+   
+  }
+  .personal h6{
+  text-align: center;
+  display:flex;
+  font-style: italic;
+  color: rgb(67, 71, 75);
+  }
+  
+  .egitim{
+  background-color: rgb(2, 20, 39);
+  height: 200px;
+  width: 100%;
+  border: 5px;
+  margin: auto;
+  font-size: 100%;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: row;
+  }
+  .call-out {
+  flex: 1;
+  order: 5;
+  color: white;
+  }
+  
+  .fixed-size-container {
+  max-width: 1400px;
+  margin: 50px auto 0 auto;
+  background-color: #FFF;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  flex-wrap: wrap;
+  }
+  
+  .fixed-size {
+  width: 50vw;
+  height: 25vh;
+  background-color: #e4d5db; 
+  /* background-color: #ffffff; */
+  color: #FFF;
+  /* line-height: 100px; */
+  font-weight: bold;
+  font-size: 10px;
+  margin-bottom: 20px;
+  text-align: start;
+  flex-wrap: wrap;
+  }
+  .fixed-size p{
+  size: 2px;
+  text-align: start;
+  }
+  .fixed-size img{
+  overflow: auto;
+  float: left;
+  }
+   .kurs p{
+  display:inline-flex;
+  text-align: right;
+  font-size: medium;
+  float: right 7px;;
+  align-self: flex-start;
+  color: black;
+  }
+  /* .squareimg{
+  display:inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  float: left;
+  } */
+  .container {
+  max-width: 750px;
+  margin: 20px auto 0 auto;
+  padding: 30px;
+  
+  }
+  
+  .form-row {
+  padding: 10px 0;
+  display: flex;
+  }
+  
+  .form-row label {
+  padding-right: 10px;
+  }
+  
+  .form-row input {
+  flex: 1;
+  border-radius: 6px;
+  
+  }
+  
+  .form-row button {
+   flex: 1;
+  background-color:rgb(255, 255, 255);
+  border-radius: 8px;
+  flex-grow: 1;
+  display: inline-block;
+  padding: .7em 1.7em;
+  font-weight : 600;
+  text-decoration: none; 
+  font-weight: 100;
+  
+  }
+  header, footer {
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+  font-size: relative;
+  background-color: rgb(2, 20, 39);
+  color: #FFF;
+  
+  }
+  
+  .center2 {
+    display: table;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  #social-test {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 30px;
+  
+    
+  }
+  #social-test body {
+    width: 100%;
+    margin: 0 auto;
+  
+    
+  }
+  
+  .social:hover > li {
+    opacity: 0.5;
+  }
+  
+  .social:hover > li:hover {
+    opacity: 1;
+  }
+  .social {
+    padding-left: 0px;
+  }
+  .social li 
+  {
+   
+      color: rgba(167, 146, 129, 0.6);
+      list-style-type: none;
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      padding: 1%;
+      border: 1px solid rgba(167, 146, 129, 0.4);
+      cursor: pointer;
+      margin-left: 10px;
+      margin-bottom: 20px;
+      transition: ease .3s;
+      
+    
+  }
+  .social li :hover{
+    color: rgba(167, 146, 129, 1);
+    border: 1px solid rgba(167, 146, 129, 1);
+  }
+  .courses a{
+    color: black;
+    display: flex;
+  }
+  .courses p{
+    color:	#616161;
+    display: flex;
+  }
+  .image-course{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10vw;
+    height: 17vh;
+    margin-left: 20vw;
+  }
+  /* .row{
+    display: flex;
+    flex-direction: row;
+  } */
+  h4{
+    text-align: center;
+    margin-top: 5vh;
+    color:	#37474F;
+  }
+  .row aside{
+    align-self: flex-end;
+  }
+  
+  .fixed-size-container p {
+    margin-left: 0px;
+    overflow:auto;
+    display:block;
+  
+  }
+  .fixed-size-container img{
+    float: left;
+    margin-right: 10px;
+    clear:both;
+    font-size: smaller;
+  }
+  .row {
+    display: flex;
+   
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 10px;
+  }
+  
+  #submit{
+    background-color: rgb(255, 255, 255);   
+     color:black;
+     height:2.5em;
+  }
+  
+  #mesaj {
+    flex: 1 1 50ch;
+    margin: .5rem;
+    height: 5em;
+    width: .155em;
+  }
+  .call-out h4{
+    color: #FFF;
+    align-items: center;
+    font-family: 'FontAwesome', 'Second Font name'
+  }
+  .call-out p{
+    color: #FFF;
+    align-items: center;
+  }
+  .call-out i{
+    color: #FFF;
+    align-self: center;
+    align-items: center;
+  }
+  .container a{
+    color: #FFF;
+  }
+  .call-out option{
+    font-family: 'FontAwesome', 'Second Font name'
+  }
+  .image {
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  .main{
+    
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+  
+  }
+  .column a{
+    font-weight: bold;
+  }
